@@ -1,0 +1,15 @@
+conditionalEvents:
+- condition: scene.slots.status == "FINAL"
+  transitionToScene: askSleep
+onEnter:
+  staticPrompt:
+    candidates:
+    - promptResponse:
+        firstSimple:
+          variants:
+          - speech: How much water did you drink today?
+slots:
+- name: waterSlot
+  required: true
+  type:
+    name: user_entry

@@ -1,0 +1,11 @@
+intentEvents:
+- intent: continue
+  transitionToScene: showFictionalLog
+onEnter:
+  staticPrompt:
+    candidates:
+    - promptResponse:
+        firstSimple:
+          variants:
+          - speech: Please say continue to move on.
+  webhookHandler: getScenarioDescription

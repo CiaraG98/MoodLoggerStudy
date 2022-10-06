@@ -1,0 +1,19 @@
+conditionalEvents:
+- condition: scene.slots.status == "FINAL"
+  transitionToScene: askWater
+intentEvents:
+- intent: good
+  transitionToScene: askWater
+slots:
+- name: moodSlot
+  promptSettings:
+    initialPrompt:
+      staticPrompt:
+        candidates:
+        - promptResponse:
+            firstSimple:
+              variants:
+              - speech: How was your mood today?
+  required: true
+  type:
+    name: user_entry

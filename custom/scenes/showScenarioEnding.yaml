@@ -1,0 +1,11 @@
+intentEvents:
+- intent: continue
+  transitionToScene: startInteraction1
+onEnter:
+  staticPrompt:
+    candidates:
+    - promptResponse:
+        firstSimple:
+          variants:
+          - speech: End of interaction 2. Please say continue to move on.
+  webhookHandler: getScenarioEnding

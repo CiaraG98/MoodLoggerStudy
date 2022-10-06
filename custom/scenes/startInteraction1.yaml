@@ -1,0 +1,17 @@
+intentEvents:
+- intent: interaction1
+  transitionToScene: askMood
+- intent: interaction2
+  transitionToScene: showFictionalScenario
+- intent: continue
+  transitionToScene: actions.scene.END_CONVERSATION
+onEnter:
+  staticPrompt:
+    candidates:
+    - promptResponse:
+        firstSimple:
+          variants:
+          - speech: Which interaction would you like to do?
+        suggestions:
+        - title: interaction 1
+        - title: interaction 2

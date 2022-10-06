@@ -1,0 +1,5 @@
+intentEvents:
+- intent: continue
+  transitionToScene: showScenarioEnding
+onEnter:
+  webhookHandler: getScenarioAnalysis

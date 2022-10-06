@@ -1,0 +1,15 @@
+conditionalEvents:
+- condition: scene.slots.status == "FINAL"
+  transitionToScene: askExercise
+onEnter:
+  staticPrompt:
+    candidates:
+    - promptResponse:
+        firstSimple:
+          variants:
+          - speech: How many hours of sleep did you get last night?
+slots:
+- name: sleepTime
+  required: true
+  type:
+    name: user_entry

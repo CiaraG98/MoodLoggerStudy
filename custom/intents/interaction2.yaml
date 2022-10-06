@@ -1,0 +1,13 @@
+parameters:
+- name: number1
+  type:
+    name: actions.type.Number
+trainingPhrases:
+- interaction 2 please
+- interaction ($number1 'two' auto=true) please
+- interaction ($number1 'two' auto=true)
+- I want to do interaction ($number1 'two' auto=true)
+- I want to do interaction ($number1 '2' auto=true)
+- interaction ($number1 '2' auto=true)
+- ($number1 '2' auto=true)
+- ($number1 'two' auto=true)

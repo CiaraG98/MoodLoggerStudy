@@ -1,0 +1,16 @@
+category: LIFESTYLE
+defaultLocale: en
+localizedSettings:
+  developerEmail: ciaragil98@gmail.com
+  developerName: Ciara Gilsenan
+  displayName: the mood logger study
+  fullDescription: To experiment to users the voice version of a mood logger.
+  privacyPolicyUrl: https://docs.google.com/document/d/1_3aFcUy-i252ofMLNr_EMl-ijdajkIG54LM9x_G8ULM/edit?usp=sharing
+  pronunciation: the mood logger study
+  sampleInvocations:
+  - Talk to the mood logger study
+  - Start Study
+  shortDescription: Study version of Mood Logger Application
+  smallLogoImage: https://lh3.googleusercontent.com/hZGKWFpgGe-gNo3Q--Wlzzr2Ab9YVEDtIaqjqmH3z0jkLj_2jZ2nBI6aS3vmE25BQuQOh1l-mwjk
+  voice: female_1
+projectId: moodloggerstudy

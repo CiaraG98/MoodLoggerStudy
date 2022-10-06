@@ -1,0 +1,7 @@
+handlers:
+- name: getScenarioDescription
+- name: getScenarioLog
+- name: getScenarioAnalysis
+- name: getScenarioEnding
+inlineCloudFunction:
+  executeFunction: ActionsOnGoogleFulfillment

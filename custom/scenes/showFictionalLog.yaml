@@ -1,0 +1,5 @@
+intentEvents:
+- intent: continue
+  transitionToScene: showFictionalAnalysis
+onEnter:
+  webhookHandler: getScenarioLog
